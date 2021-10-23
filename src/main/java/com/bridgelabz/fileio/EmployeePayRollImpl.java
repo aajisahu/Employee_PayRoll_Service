@@ -1,5 +1,6 @@
 package com.bridgelabz.fileio;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,7 +12,7 @@ import java.util.Scanner;
 public class EmployeePayRollImpl {
     private List<EmployeePayRollData> employePayrollList = new ArrayList<EmployeePayRollData>();
     Scanner scanner = new Scanner(System.in);
-    private static final String FILE_PATH = "C:\\Users\\MY PC\\Desktop\\PayRoll.txt";
+    private static final String FILE_PATH = "C:\\Users\\RAJENDRA GUND\\Desktop";
 
     public void readEmployeeDataFromConsole() {
         System.out.println("Enter Employee Id");
